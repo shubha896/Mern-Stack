@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rummy Circle</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0%;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #660101;
+        color: white;
+    }
+
+    .main-container {
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #760000;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        gap: 28%;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+    .logo {
+        margin-left: 15px;
+    }
+    .player-count {
+        text-align: center;
+    }
+    .player-text span{
+        display: block;
+    }
+    .no-of-players {
+        font-size: 24px;
+        font-weight: bold;
+        color: #DC9804;
+    }
+
+    .players {
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+    }
+
+    main img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    main {
+        position: relative;
+        height: 410px;
+        overflow: hidden;
+        width: 100%;
+        background-color: blue;
+    }
+    main img {
+        object-fit: cover;
+    }
+
+    .input-box {
+        top: 30%;
+        left: 5%;
+        display: flex;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 3px;
+    }
+    .parent-input-box {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .parent-input-box h4 {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .invite-code-link {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: right;
+    }
+    .get-started-btn{
+        background-color: #DC9804;
+        color: black;
+        border: none;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .other-methods-link {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .country-code {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        font-size: 16px;
+        border-right: 2px solid gray;
+    }
+    .input-box input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        font-size: 16px;
+        flex: 1;
+    }
+    footer {
+
+        width: 300px;
+        height: 400px;
+    }
+    .disclaimer {
+        color: white;
+        font-size: 10px;
+        margin-top: 70px;
+        color: gray;
+    }
+    .disclaimer span{
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .tc{
+        cursor: pointer;
+        color: #DC9804;
+
+    }
+</style>
+
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="logo">
+                <img width="200" src="/image/rummycircle-logo.webp" alt="logo">
+            </div>
+            <div class="player-count">
+                <div class="player-icon">
+                   <!-- <img src="/image/d-lp-eng.jpg" alt="player icon"> -->
+                </div>
+                <div class="player-text">
+                    <span class="no-of-players">70,000,000+</span>
+                    <span class="players">Players</span>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+        <main class="content-area">
+            <img  src="../image/d-lp-eng.jpg" alt="background">
+            <div class="parent-input-box">
+                <h4>Login/SignUp</h4>
+                <div class="input-box">
+                    <div class="country-code">
+                        +91
+                    </div>
+                    <input type="text" placeholder="Enter Mobile Number" required>
+                </div>
+                <a  href="#" class="invite-code-link">Have an <strong>Invite  code?</strong></a>
+                <button class="get-started-btn">GET STARTED</button>
+                <a href="#" class="other-methods-link">Login using other methods</a>
+
+                <div class="disclaimer">
+                <span class="eighteen-plus">18+</span> By registering, you accept you are 18+ & agree to our 
+                <span class="tc">T&C & Privacy Policy</span>
+               
+            </div>
+
+            </div>
+        </main>
+
+
+        <footer>
+            
+        </footer>
+    </div>
+
+</body>
+
+</html>

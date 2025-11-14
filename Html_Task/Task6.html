@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    table,tr,th,td{
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <table border="1">
+      <tr>
+        <th colspan="2">Registration</th>
+      </tr>
+      <tr>
+        <td><label for="fullname">Full Name</label></td>
+        <td><input type="text" id="fullname" placeholder="Enter your name" minlength="3" maxlength="30"></td>
+      </tr>
+      <tr>
+        <td><label for="username">Username</label></td>
+        <td><input type="text" id="username" placeholder="Enter your username" minlength="3" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="email" id="email" placeholder="Enter your email"></td>
+      </tr>
+      <tr>
+        <td><label for="phone">Phone Number</label></td>
+        <td><input type="tel" id="phone" placeholder="Enter your number" ></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="password" id="password" placeholder="Enter your password" minlength="6" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td><label for="confirm">Confirm Password</label></td>
+        <td><input type="password" id="confirm" placeholder="Confirm your password" minlength="6" maxlength="20"></td>
+      </tr>
+      <tr>
+        <td><label>Gender</label></td>
+        <td>
+          <input type="radio" name="gender" id="male"> Male
+          <input type="radio" name="gender" id="female"> Female
+          <input type="radio" name="gender" id="none"> Prefer not to say
+        </td>
+      </tr>
+      
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Register">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>

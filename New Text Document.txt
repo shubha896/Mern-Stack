@@ -1,0 +1,29 @@
+attributes 
+keywords
+entity
+&nbsp(space)
+semantic tag
+div tag
+fevicon
+<p>,<h1 --h6> ,<a>(targe="_blank")open in new tab,<img>,<br>,<hr>,<marqee>,<u>,<sup>,<sub>,<del>,<pre>,<iframe>,<mark>,	<table>, colspan, rowspan
+List- ol,ul,description list <dl>,<dt>,<dd>,<form>
+<label for="nameU"> Name </label>
+<input type="text" placeholder="Emter name" id="name"/>
+(min,max,minLength,MaxLength,Step=1,redio,checkbox,TextAea
+div,spain
+
+
+css
+
+inline css
+internal css
+extenal css 
+
+root - HTml Tag ( pixel size by defult-16px)
+parent
+child
+
+selector -> selector is a way by which we pick up html tag/element so that we can apply css
+box -sizing
+ content box
+ border box

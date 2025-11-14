@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <style>
+    *{
+     
+      margin: auto;
+    }
+    #heading{
+      background-color: dodgerblue;
+    }
+    #section_1{
+      height: auto;
+      width: 45%;
+      background-color: rgb(251, 246, 240);
+      
+      border: solid white;
+      margin-top: 6px;
+      
+    }
+    #section_2{
+      height: 60%;
+      width: 80%;
+    }
+
+    label,input{
+      margin:9px;
+      /* width: 70px; */
+    }
+    
+    
+ 
+  </style>
+</head>
+<body>
+  <div id="section_1">
+ <center><h2 id="heading">Registration Form</h2></center>
+
+<div id="section_2">
+<label for="name" class="input">First Name </label>
+<input type="text" id="name" style="width: 70px;">
+<label for="LastName" >Last Name </label>
+<input type="text" id="LastName" style="width: 70px;" >
+
+<br>
+
+<label for="email">Email</label>
+<br>
+<input type="email" id="email" >
+<br>
+<label for="Phone">Phone</label>
+<br>
+<input type="tel">
+<br>
+<label for="city">City</label>
+<select name="city" id="city_id"> 
+  <option value="city">London</option>
+</select>
+
+<label for="Country">Country</label>
+<select name="country" id="country_id">
+  <option value="country">india</option>
+</select>
+<center><p style="background-color: dodgerblue; margin: 10px;">Get Started</p></center>
+</div>
+
+  </div>
+</body>
+</html>
