@@ -1,0 +1,194 @@
+"23" !==23
+
+----------3970----------------------------JAVA Script--------------------------------
+
+
+part-
+programming
+scripting lan.
+
+compiler (pura ek sath)       interpriter (line by line)            transpiler(one high level lang. to another high level lag)bible
+
+
+Name => mocha-ESC-JavaScript
+
+Scripting language => laguage use For DOM manupulation
+
+keywords
+tokens
+
+
+variables
+control flow
+loops
+functions
+function expression
+
+
+
+let x;
+output= un defined
+----------------------------------------------
+Scope=>  lifeTime of variable 
+global
+block =  { }
+local / function scope / User Scope  = perticular function ke andar hi use kr skte h 
+module Scope
+script scope
+
+let   = (block scope)  Re-initialize kr skte h
+var = (function Scope)   Re-initialize kr skte h
+const = (block scope)   Re-initialize nhi kr skte h
+let or var ko value dena jaruri nhi h (undefine value lega agar value nhi di)
+const ko value dena jaruri h
+
+console.log()
+console = object h
+log = method h
+
+ ---------------L0----------------
+syncronous programming lan =>
+=>keywords(pre-define word rhte h) inka use ham funaction ka name ,class name ,variable name dene ke liye nhi kr skte.(ex. let,const,var,do,while)
+=>token(smalest unit of program)  program ko chote parts me divide krne pr error nhi ati
+=>identifiers(variable name)   kisi bhi chiz ka name
+=>datatypes -> primitive(ese data type jo ek time pr ek value store krte h) language ke sath ate h .
+               (number,string,boolean,null,Non[not a number])    null=> absense of data
+
+             
+               non-primitive(ese data type jo ek time pr multiple value store krte h) complex data type,user define data type.
+ 
+=> variable  =   rules of creating variable / function/class
+                 [start name only with alphabet, _ , &] or bich me space or ayfon nhi hona chaiye , key word ka use nhi kro variable name me
+
+                 syntex of making varable
+                 how variable hold value
+
+=> operators [it is symbol which is used perform some operations on  variable.] oprends ke uper operation perform krne ke liye use hote h
+  binary op = minimum do value ke bich me use hota h
+  
+             => assignment
+                arithmetic = /,*,-,+  (ye binary op. hota h)
+                logiical operator = And && , OR || , NOT !  [answer hamesha boolean me at h]    
+                comparison op  = {<,>,<=,>=,==,===,!=}minimum do oprends ko compare krte h [iska result hamesa bololean me ayega]
+                bitwise
+
+   unary op = jo single value ke sath use hota h 
+             --x =>pre decrement
+            x-- => post  decrement
+	     ++x => pre increment
+            x++ => post increment
+
+=> control flow  = if else
+                else if lader
+                switch
+
+
+=> loops  = while,do while,for,for of, for in
+
+=> functions  = normal fun/
+                annonomys fn
+                pure
+               impure fn
+               arrow fun
+               cllback fn
+
+
+
+Execution context = 
+memory creation phase => x(variable jab banate h tab ye store hota h) = un defined sev hota h
+
+          -------------------------------------- 
+          |                                     |
+              var    function
+
+          |                                     |
+                       TDZ
+                ----------------------- 
+          |          let |  const               |
+                -----------------------
+      
+          |                                     |
+           --------------------------------------
+
+
+code Execution phase => sum ( jab function banate h ye store hota h dabbe ke andar )  puri function body ayegi andar
+                        
+                  
+[[[{TDZ - temprary dead zone }]]]    variable ko access pahle kr rhe ho or declare bad me krte h To Ye Refrence error deta  h 
+
+hosting = kisi variable use pahle krte h or declare bad me krte h 
+function hosting = kisi function use pahle krte h or declare bad me krte h
+
+
+
+
+===========================================================================================================================================
+function = it is block of code use to perform a task. (function declare with body is mandaterry)
+simple function
+----------------------------------------
+function fun (a,b){  => parameter
+
+}
+
+fun();  => argument
+----------------------------------------
+ Return => agar function me return use krna hai to matlb uske output ka bahar use krna h
+  agar return kra to function jab cll krana hoga to usko ek variable me store krna hoga (agar return use nhi kra to un define store hoga variable me)
+
+  agar variable me store nhi krte ho or output dekhna hai to console log ka use krke function cll krna hoga
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+arrow fun (sort line me function likhne ke liye use krte h) it is block of code use to perform a task in sort line
+--------------------------------------------------------
+let know = () =>{  (EK LINE ka code ho to { } mt lagao)
+          
+}
+--------------------------------------------------------
+
+let know = () => value+1;
+
+-------------------------------------------------------
+let know (a,b) => a+b; [return automic lag jayega only one line code me]
+
+arrow function hosting 
+
+ 
+
+callback fun
+highter fun
+pure fun
+impure
+anynoymous(name nhi hota function ka)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

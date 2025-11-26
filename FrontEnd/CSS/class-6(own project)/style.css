@@ -1,0 +1,27 @@
+*{
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+.navBar{
+  width: 100%;
+  display: flex;
+  
+  
+  background-color: aqua;
+}
+
+.navBar_1{
+  display: flex;
+  gap:30px;
+  background-color: blue;
+
+}
+.navBar_2{
+  display: flex;
+   gap:30px;
+   justify-content: right;
+   
+   background-color: yellow;
+
+}

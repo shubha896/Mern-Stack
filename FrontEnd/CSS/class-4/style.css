@@ -1,0 +1,22 @@
+*{
+margin-top: 0;
+margin-bottom: 0;
+box-sizing: border-box;
+
+}
+
+.header{
+  width: 100%;
+  margin: 4px 0px 0px 4px;
+  display: flex;
+}
+.header_1{
+  width: 70%;
+ display: flex;
+  gap: 10px;
+}
+.header_2{
+  display: flex;
+  gap: 25px;
+  
+}

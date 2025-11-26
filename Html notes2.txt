@@ -1,0 +1,114 @@
+attributes 
+keywords
+entity
+&nbsp(space)
+semantic tag
+div tag
+fevicon
+<p>,<h1 --h6> ,<a>(targe="_blank")open in new tab,<img>,<br>,<hr>,<marqee>,<u>,<sup>,<sub>,<del>,<pre>,<iframe>,<mark>,	<table>, colspan, rowspan
+List- ol,ul,description list <dl>,<dt>,<dd>,<form>
+<label for="nameU"> Name </label>
+<input type="text" placeholder="Emter name" id="name"/>
+(min,max,minLength,MaxLength,Step=1,redio,checkbox,TextAea
+div,spain
+
+
+css
+
+inline css
+internal css
+extenal css 
+
+root - HTml Tag ( pixel size by defult-16px)
+parent
+child
+
+selector -> selector is a way by which we pick up html tag/element so that we can apply css
+box -sizing
+ content box
+ border box
+
+units -
+relative units  -  rem(root node)  em(parent node)
+absolute  - %
+           px
+            vh/vw
+
+display properties -inline
+	           bolck
+                  inline-block
+ {it is change the element one category to another category(block to inline , inline to block, inline to block element alll)}
+ for hide the element on display -- Display:none   (occupy no space)
+                                    visiblity :hidden (occupy space)
+{css me only text or font property hi inherit hoti baki hight width nhi hoti}
+ --------------------------------------------------------
+Flex box- content ko one dimantion me place krne ke liye use hota h (display: flex)
+{minimum do element rhne chahiye ek tag ke andar(parent child relationship rhna chahiye)}
+{jab kisi dabbe ko center krna hoto parent tag ki hight width set krna jaruri h } 
+{jab kisi dabbe ko vertically center me lana ho bina margin ka use kiye yo flex ka hi use hota h}
+                   main axis
+              --------------->
+              |
+              | cross axis
+	      | 
+             """
+              "
+
+justify content(main exis me arrange dabbe) {by default value start or other center ,end}
+space-between ->{ek dabba start or ek last me row me}
+ dabbe ke charo barabar margin dene ke liye
+
+align-items(vertical direction me item ko set krne ke liye)
+flex-wrap(by defalut no wrep)
+
+flex kyu aya 
+flex(margin(ek dabbe ko di to dusre dubbe me automatic margin lag jati h) - gap(sirft jisme lagai gap usi me lagegi))
+
+justify-content
+align-item
+align-content
+align-center
+flex-direction:coulam;
+gap
+
+
+child property ---
+order
+
+
+ ------------------position----------------------
+parent child relationship jaruri nhi h 
+
+relative 
+absolute(box ko parent ki postion ke hisab se move krna or place krna{parent relative property ka rhta h }  )-parent child relationship hota h
+sticky
+fixed
+
+z index(stack order)(parent ko pahle relative banana padega)
+
+-------------------------------------------------------------------------------------
+
+
+transform
+
+transform property -->
+transform 
+scale
+skew
+animation
+
+media query
+
+
+
+mayank chouhan
+vidhi chaitguru
+vinit suman
+vinit kahar 
+paritosh sahu
+rohit patel
+ashika 
+vijay vishwakarma 
+manish thakur 
+rohan yadav
+           
